@@ -1,0 +1,43 @@
+# =========================================================================
+# Unity Standard Gitignore
+# =========================================================================
+
+# 排除 Unity 自動生成的暫存與快取資料夾（最佔空間且不需版控）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
+/[Uu]serSettings/
+
+# 排除 IDE (Visual Studio / VS Code / Rider) 自動生成的專案設定與解法檔
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svntmp
+
+# 排除 Visual Studio 的快取與私有資料
+.vs/
+.idea/
+.vscode/
+
+# 排除系統產生的縮圖與隱藏檔
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Ehthumbs.db
+Thumbs.db
+
+# 排除特定建置輸出（如 APK 或自動化打包產物）
+*.apk
+*.unitypackage
